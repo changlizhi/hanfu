@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app="App">
+<head>
+    <script src="{{ static_url('bower_components/jquery/dist/jquery.js') }}"></script>
+    <script src="{{ static_url('bower_components/bootstrap/dist/js/bootstrap.js') }}"></script>
+    <script src="{{ static_url('bower_components/angular/angular.js') }}"></script>
+    <script src="{{ static_url('bower_components/angular-strap/dist/angular-strap.min.js') }}"></script>
+    <script src="{{ static_url('bower_components/angular-strap/dist/angular-strap.tpl.min.js') }}"></script>
+    <meta charset="UTF-8">
+    <title>复兴者们</title>
+    <link rel="stylesheet" href="{{ static_url('bower_components/bootstrap/dist/css/bootstrap.css') }}"/>
+    <style>
+        body {
+            padding-top: 35px;
+            padding-bottom: 0;
+            background-image: url("{{ static_url('tupian/zhuzi.jpg') }}");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+        }
+
+        .container {
+            border: solid 1px #c9e2b3;
+            filter: alpha(opacity=90); /*支持 IE 浏览器*/
+            -moz-opacity: 0.90; /*支持 FireFox 浏览器*/
+            opacity: 0.90; /*支持 Chrome, Opera, Safari 等浏览器*/
+            background-color: #dff0d8;
+        }
+
+        .beian {
+            background-color: #dff0d8;
+        }
+
+        img {
+            width: 580px;
+            height: 300px
+        }
+    </style>
+    <script>
+
+        $.getJSON("{{ static_url('json/zh-CN.json') }}", function (data) {
+            console.log(data[0]);
+        })
+
+    </script>
+
+</head>
+<body>
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <ul class="nav nav-tabs">
+                <li>
+                    <a href="/hanfuxin">汉服心</a>
+                </li>
+                <li>
+                    <a href="/kuanshixingzhi">款式形制</a>
+                </li>
+                <li class="active">
+                    <a href="/fuxingzhemen">复兴者们</a>
+                </li>
+                <li>
+                    <a href="/hanjiajieri">汉家节日</a>
+                </li>
+                <li class="disabled">
+                    <a href="#">权限页面</a>
+                </li>
+
+                <li class="dropdown pull-right">
+                    <a href="/tiebahuati">贴吧话题</a>
+                </li>
+                <li class="dropdown pull-right">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">下拉<strong class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">操作</a>
+                        </li>
+                        <li>
+                            <a href="#">设置栏目</a>
+                        </li>
+                        <li>
+                            <a href="#">更多设置</a>
+                        </li>
+                        <li class="divider">
+                        </li>
+
+                        <li>
+                            <a href="#">分割线以下</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown pull-right">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">用户:{{greetings}}<strong
+                            class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">操作</a>
+                        </li>
+                        <li>
+                            <a href="#">设置栏目</a>
+                        </li>
+                        <li>
+                            <a href="#">更多设置</a>
+                        </li>
+                        <li class="divider">
+                        </li>
+                        <li>
+                            <a href="#">分割线</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-3 column">
+            <div class="panel-group" id="panel-948881">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="panel-title" data-toggle="collapse" data-parent="#panel-948881"
+                           href="#panel-element-1">Collapsible Group Item #1</a>
+                    </div>
+                    <div id="panel-element-1" class="panel-collapse in">
+                        <div class="panel-body">
+                            Anim pariatur cliche...
+                        </div>
+                        <div class="panel-body">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-948881"
+                           href="#panel-element-2">Collapsible Group Item #2</a>
+                    </div>
+                    <div id="panel-element-2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="panel-title" data-toggle="collapse" data-parent="#panel-948881"
+                           href="#panel-element-3">Collapsible Group Item #1</a>
+                    </div>
+                    <div id="panel-element-3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-948881"
+                           href="#panel-element-4">Collapsible Group Item #2</a>
+                    </div>
+                    <div id="panel-element-4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="panel-title" data-toggle="collapse" data-parent="#panel-948881"
+                           href="#panel-element-5">Collapsible Group Item #1</a>
+                    </div>
+                    <div id="panel-element-5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-948881"
+                           href="#panel-element-6">Collapsible Group Item #2</a>
+                    </div>
+                    <div id="panel-element-6" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="panel-title" data-toggle="collapse" data-parent="#panel-948881"
+                           href="#panel-element-7">Collapsible Group Item #1</a>
+                    </div>
+                    <div id="panel-element-7" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-948881"
+                           href="#panel-element-8">Collapsible Group Item #2</a>
+                    </div>
+                    <div id="panel-element-8" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-md-9 column">
+            <div class="row clearfix">
+                <div class="col-md-8 column">
+                    <img alt="140x140" src="{{static_url('tupian/dayu.jpg')}}"/>
+                </div>
+                <div class="col-md-4 column">
+                    <dl>
+                        <dt>
+                            Description lists
+                        </dt>
+                        <dd>
+                            A description list is perfect for defining terms.
+                        </dd>
+                        <dt>
+                            Euismod
+                        </dt>
+                        <dd>
+                            Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                        </dd>
+                        <dd>
+                            Donec id elit non mi porta gravida at eget metus.
+                        </dd>
+                        <dt>
+                            Malesuada porta
+                        </dt>
+                        <dd>
+                            Etiam porta sem malesuada magna mollis euismod.
+                        </dd>
+                        <dt>
+                            Felis euismod semper eget lacinia
+                        </dt>
+                        <dd>
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                            justo sit amet risus.
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-8 column">
+                    <img alt="140x140" src="{{static_url('tupian/dayu.jpg')}}"/>
+                </div>
+                <div class="col-md-4 column">
+                    <dl>
+                        <dt>
+                            Description lists
+                        </dt>
+                        <dd>
+                            A description list is perfect for defining terms.
+                        </dd>
+                        <dt>
+                            Euismod
+                        </dt>
+                        <dd>
+                            Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                        </dd>
+                        <dd>
+                            Donec id elit non mi porta gravida at eget metus.
+                        </dd>
+                        <dt>
+                            Malesuada porta
+                        </dt>
+                        <dd>
+                            Etiam porta sem malesuada magna mollis euismod.
+                        </dd>
+                        <dt>
+                            Felis euismod semper eget lacinia
+                        </dt>
+                        <dd>
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                            justo sit amet risus.
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-8 column">
+                    <img alt="140x140" src="{{static_url('tupian/dayu.jpg')}}"/>
+                </div>
+                <div class="col-md-4 column">
+                    <dl>
+                        <dt>
+                            Description lists
+                        </dt>
+                        <dd>
+                            A description list is perfect for defining terms.
+                        </dd>
+                        <dt>
+                            Euismod
+                        </dt>
+                        <dd>
+                            Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                        </dd>
+                        <dd>
+                            Donec id elit non mi porta gravida at eget metus.
+                        </dd>
+                        <dt>
+                            Malesuada porta
+                        </dt>
+                        <dd>
+                            Etiam porta sem malesuada magna mollis euismod.
+                        </dd>
+                        <dt>
+                            Felis euismod semper eget lacinia
+                        </dt>
+                        <dd>
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                            justo sit amet risus.
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-8 column">
+                    <img alt="140x140" src="{{static_url('tupian/dayu.jpg')}}"/>
+                </div>
+                <div class="col-md-4 column">
+                    <dl>
+                        <dt>
+                            Description lists
+                        </dt>
+                        <dd>
+                            A description list is perfect for defining terms.
+                        </dd>
+                        <dt>
+                            Euismod
+                        </dt>
+                        <dd>
+                            Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                        </dd>
+                        <dd>
+                            Donec id elit non mi porta gravida at eget metus.
+                        </dd>
+                        <dt>
+                            Malesuada porta
+                        </dt>
+                        <dd>
+                            Etiam porta sem malesuada magna mollis euismod.
+                        </dd>
+                        <dt>
+                            Felis euismod semper eget lacinia
+                        </dt>
+                        <dd>
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                            justo sit amet risus.
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-8 column">
+                    <img alt="140x140" src="{{static_url('tupian/dayu.jpg')}}"/>
+                </div>
+                <div class="col-md-4 column">
+                    <dl>
+                        <dt>
+                            Description lists
+                        </dt>
+                        <dd>
+                            A description list is perfect for defining terms.
+                        </dd>
+                        <dt>
+                            Euismod
+                        </dt>
+                        <dd>
+                            Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                        </dd>
+                        <dd>
+                            Donec id elit non mi porta gravida at eget metus.
+                        </dd>
+                        <dt>
+                            Malesuada porta
+                        </dt>
+                        <dd>
+                            Etiam porta sem malesuada magna mollis euismod.
+                        </dd>
+                        <dt>
+                            Felis euismod semper eget lacinia
+                        </dt>
+                        <dd>
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+                            justo sit amet risus.
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <p>
+                        <em>Git</em> 是一个分布式的版本控制系统，最初由 <strong>Linus Torvalds</strong>
+                        编写，用作Linux内核代码的管理。在推出后，Git在其它项目中也取得了很大成功，尤其是在
+                        <small>Ruby</small>
+                        社区中。
+                    </p>
+                    <ul class="pagination">
+                        <li>
+                            <a href="#">Prev</a>
+                        </li>
+                        <li>
+                            <a href="#">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">4</a>
+                        </li>
+                        <li>
+                            <a href="#">5</a>
+                        </li>
+                        <li>
+                            <a href="#">Next</a>
+                        </li>
+                    </ul>
+                    <form class="form-horizontal" role="form">
+                        <!--<a id="modal-437929" href="#modal-container-437929" role="button" class="btn" data-toggle="modal">触发遮罩窗体</a>-->
+
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+
+                            <div class="col-sm-10">
+                                <input class="form-control" id="inputEmail3" href="#modal-container-437929"
+                                       data-toggle="modal" type="email"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">Sign in</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div class="alert alert-success alert-dismissable">
+                <h4>
+                    注意!
+                </h4> <strong>Warning!</strong> Best check yo self, you're not looking too good. <a href="#"
+                                                                                                    class="alert-link">alert
+                link</a>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal fade" id="modal-container-437929" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="tabbable" id="tabs-952683">
+                <ul class="nav nav-tabs">
+                    <li>
+                        <a href="#panel-868389" data-toggle="tab">Section 1</a>
+                    </li>
+                    <li class="active">
+                        <a href="#panel-959966" data-toggle="tab">Section 2</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane" id="panel-868389">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label for="inputEmail4" class="col-sm-2 control-label">Email</label>
+
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="inputEmail4" href="#modal-container-437929"
+                                           type="email"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword4" class="col-sm-2 control-label">Password</label>
+
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword4"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox"/>Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" data-dismiss="modal" class="btn btn-default">Sign in</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane active" id="panel-959966">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label for="inputEmail5" class="col-sm-2 control-label">Email</label>
+
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="inputEmail5" href="#modal-container-437929"
+                                           type="email"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword5" class="col-sm-2 control-label">Password</label>
+
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword5"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword6" class="col-sm-2 control-label">Password</label>
+
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword6"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox"/>Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" data-dismiss="modal" class="btn btn-default">Sign in</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="beian">
+    <a href="#" class="alert-link">豫ICP备000001号</a>
+</div>
+</body>
+
+</html>

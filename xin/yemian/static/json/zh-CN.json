@@ -1,0 +1,685 @@
+[
+  {
+    "files": [
+      "bms_common.js"
+    ],
+    "id": "BbenMyeksgR",
+    "key": "bms.common.c006",
+    "new": false,
+    "timestamp": "2016-04-26T08:45:09.372Z",
+    "value": "新密码",
+    "variables": [
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "zEoL5dXGCE",
+        "key": "bms.msg.cost.year.y073",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "调整值无变化！",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "XjELB4a9C5G",
+        "key": "bms.msg.cost.year.y074",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "正在保存数据...",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "qo6A5erLCoo",
+        "key": "bms.msg.cost.year.y075",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "保存调整值出现异常！",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "4LjXRpxECjp",
+        "key": "bms.msg.cost.year.y076",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "请选择撤销的组织！",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "7o6A5erLCoa",
+        "key": "bms.msg.cost.year.y077",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "正在保存,请稍候...",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "G5G74EkRuE7",
+        "key": "bms.msg.cost.year.y078",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "数据保存出现异常！",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "BKB94LkRuoX",
+        "key": "bms.msg.cost.year.y079",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "正在提交,请稍候...",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "bz9LpqbMuKk",
+        "key": "bms.msg.cost.year.y080",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "请求超时或网络连接故障！",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "5o6A7erLuo4",
+        "key": "bms.msg.cost.year.y081",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "正在提交调整状态,请稍候...",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "dbKLpqdMC5M",
+        "key": "bms.msg.cost.year.y082",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "正在提交审批,请稍候...",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "jKxL4nEkCyp",
+        "key": "bms.msg.cost.year.y083",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "提交审批成功",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "E5E74RknCRq",
+        "key": "bms.msg.cost.year.y084",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "年度下达",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "XjELB4a9C56",
+        "key": "bms.msg.cost.year.y085",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "提交审批后将不能再编制数据，是否继续？",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "qo6A5erLCox",
+        "key": "bms.msg.cost.year.y086",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "获取年度预算目标预编调整数据失败",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "4LjXRpxECjK",
+        "key": "bms.msg.cost.year.y087",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "修改年度预算目标预编调整数据失败",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "BKB94LkRuoL",
+        "key": "bms.msg.cost.year.y098",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "提交年度预算目标预编数据失败",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "bz9LpqbMuK6",
+        "key": "bms.msg.cost.year.y100",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "应用下级单位数据生成年度预算目标预编数据出错:",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "5o6A7erLuog",
+        "key": "bms.msg.cost.year.y101",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "未开启年度预算目标预编数据调整,无法进行此操作",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "oz6EABLMCbq",
+        "key": "bms.msg.cost.year.y102",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "重置年度预算目标预编数据为草稿失败,",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "KGKkRLrECge",
+        "key": "bms.msg.cost.year.y103",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "导入年度预算目标预编数据失败,",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "5o6A7erLCoq",
+        "key": "bms.msg.cost.year.y105",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "还没有下级单位完成审批",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "7o6A5erLCoE",
+        "key": "bms.msg.cost.year.y106",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "正在保存预算编制,请稍候...",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "zEoL5dXGCpd",
+        "key": "bms.msg.cost.year.y107",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "您需要修改这些指标的下级单位的申报值或您填写的申报值",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "ajxL4Bk9Cax",
+        "key": "bms.msg.cost.year.y108",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "点击下级汇总值列的数据,在弹出的窗口中可以调整下级单位的数据",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "8EoL79XGCeb",
+        "key": "bms.msg.cost.year.y109",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "下级单位情况",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "MGMkRLrEug7",
+        "key": "bms.msg.cost.year.y110",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "还没有下级单位完成编报,是否提交？",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "pLjXRexEujr",
+        "key": "bms.msg.cost.year.y111",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "提交后将不能再编制数据，是否继续？",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "ejxL4Bk9uej",
+        "key": "bms.msg.cost.year.y112",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "正在获取下级单位数据,请稍候...",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "Lqk6nxrRuyX",
+        "key": "bms.msg.cost.year.y113",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "您的编制合计值为0,确认提交?",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "9xGLXpARCB6",
+        "key": "bms.msg.cost.year.y114",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "还没有下级单位完成编报,是否提交审批?",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "KGKkRLrECpg",
+        "key": "bms.msg.cost.year.y115",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "您的编制合计值为0,确认提交审批?",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "5o6A7erLC55",
+        "key": "bms.msg.cost.year.y116",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "成功提交个审批.",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "7o6A5erLC7a",
+        "key": "bms.msg.cost.year.y117",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "您正在进行多个模板的提交审批操作,\n提交审批后,数据将不能再编制数据，是否继续？",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "rLjXRexECe7",
+        "key": "bms.msg.cost.year.y118",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "还没有下级单位完成编报,无法填入下级单位数据",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "ajxL4Bk9CeL",
+        "key": "bms.msg.cost.year.y119",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "确定填入下级完成编报的数据?",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "8EoL79XGCyg",
+        "key": "bms.msg.cost.year.y120",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "数据已经修改,请先进行[保存]操作",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "MGMkRLrEue8",
+        "key": "bms.msg.cost.year.y121",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "年度对比选择的版本",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "pLjXRexEued",
+        "key": "bms.msg.cost.year.y122",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "只能应用一个版本的数据",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "xRoL5dGyuq5",
+        "key": "bms.msg.cost.year.y123",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "应用版本成功",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "dbKLpqdMupL",
+        "key": "bms.msg.cost.year.y124",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "请选择一个版本",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "9xGLXpARCBn",
+        "key": "bms.msg.cost.year.y125",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "删除版本成功",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "KGKkRLrECp9",
+        "key": "bms.msg.cost.year.y126",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "还没有下级单位完成编报,无法下达",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "5o6A7erLC5z",
+        "key": "bms.msg.cost.year.y127",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "确定下达?",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "kzoEABLMCx5",
+        "key": "bms.msg.cost.year.y128",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "转为年度下达数据成功.",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "rLjXRexECez",
+        "key": "bms.msg.cost.year.y129",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "已经完成编报的:",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "ajxL4Bk9CeM",
+        "key": "bms.msg.cost.year.y130",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "还未完成编报的:",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "8EoL79XGCya",
+        "key": "bms.msg.cost.year.y131",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "下达前请先确认本级和下级组织没有做年度下达,确定下达?",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "MGMkRLrEuez",
+        "key": "bms.msg.cost.year.y132",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "此操作时间较长,请在3-5分钟之后手动刷新界面...",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "A5A74Rknuj4",
+        "key": "bms.msg.cost.year.y133",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "转为年度下达数据成功.",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "ejxL4Bk9up5",
+        "key": "bms.msg.cost.year.y134",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "转为年度下达数据失败,年度下达中(本级或下级组织)已经存在数据.",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "dbKLpqdMupn",
+        "key": "bms.msg.cost.year.y135",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "确认调整？ ",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "9xGLXpARCB9",
+        "key": "bms.msg.cost.year.y136",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "正在运用版本数据,请稍候...",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "KGKkRLrECpd",
+        "key": "bms.msg.cost.year.y137",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "操作成功,请关闭本窗口后,点击【查询】按钮刷新数据",
+        "variables": []
+      },
+      {
+        "files": [
+          "bms_cost_year.js"
+        ],
+        "id": "gjxL4Br9Cex",
+        "key": "bms.msg.cost.year.y138",
+        "new": false,
+        "timestamp": "2016-01-26T02:04:38.710Z",
+        "value": "没有数据被修改！",
+        "variables": []
+      }
+    ]
+  },
+  {
+    "files": [
+      "bms_common.js"
+    ],
+    "id": "jB96dg9EHAz",
+    "key": "bms.common.c007",
+    "new": false,
+    "timestamp": "2016-04-26T08:45:09.372Z",
+    "value": "重复新密码",
+    "variables": []
+  },
+  {
+    "files": [
+      "bms_common.js"
+    ],
+    "id": "BbenM5jXuoj4",
+    "key": "bms.common.c005",
+    "new": false,
+    "timestamp": "2016-04-26T08:33:20.535Z",
+    "value": "修改密码",
+    "variables": []
+  },
+  {
+    "files": [
+      "bms_common.js"
+    ],
+    "id": "p7k6zByLIq9",
+    "key": "bms.common.c002",
+    "new": false,
+    "timestamp": "2016-04-26T07:50:02.022Z",
+    "value": "手机号",
+    "variables": []
+  },
+  {
+    "files": [
+      "bms_common.js"
+    ],
+    "id": "95k67Byxfqa",
+    "key": "bms.common.c003",
+    "new": false,
+    "timestamp": "2016-04-26T07:50:02.022Z",
+    "value": "邮箱",
+    "variables": []
+  },
+  {
+    "files": [
+      "bms_common.js"
+    ],
+    "id": "7jgkqyXoUAg",
+    "key": "bms.common.c004",
+    "new": false,
+    "timestamp": "2016-04-26T07:50:02.022Z",
+    "value": "修改个人信息",
+    "variables": []
+  },
+  {
+    "files": [
+      "bms_common.js"
+    ],
+    "id": "yKk65reRsoze",
+    "key": "bms.common.c001",
+    "new": false,
+    "timestamp": "2016-04-26T07:28:08.776Z",
+    "value": "用户语言",
+    "variables": []
+  },
+  {
+    "files": [
+      "bms_common.js"
+    ],
+    "id": "jB96dapksy4r",
+    "key": "bms.common.language.cl001",
+    "new": false,
+    "timestamp": "2016-04-26T07:28:08.776Z",
+    "value": "中文",
+    "variables": []
+  }
+]
